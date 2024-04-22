@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  /* Navbar Styling */
+  .navbar {
+    width: 100%;
+    background-color: #333; 
+    color: #ffffff;
+    font-family: 'Kode Mono', monospace;
+    position: fixed; 
+    top: 0;
+    z-index: 10; 
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-menu li {
+    padding: 10px 20px;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: #ff6347; 
+}
+
+body {
+    padding-top: 60px; 
+}
+
+.filter-container {
+    margin: 20px;
+    text-align: center;
+}
+
+.filter-dropdown {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.work-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* adds a hover effect */
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures the image fits the card */
+  }
+  
+  .card-body {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .card a {
+    color: inherit; /* Ensures text color is consistent */
+  }

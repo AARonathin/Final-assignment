@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <ul class="navbar-menu">
+                <li><a href="Mainpage.html#home">Home</a></li>
+                <li><a href="Mainpage.html#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Portfolio</h1>
+    <section id="portfolio" class="portfolio-content">
+    <div class="filter-container">
+        <select id="work-filter" class="filter-dropdown">
+            <option value="all">All</option>
+            <option value="web">Web Development</option>
+            <option value="ux">UX</option>
+            <option value="graphic">Graphic Design</option>
+        </select>
+    </div>
+
+    <div id="work-container" class="work-container">
+        <div class="card" data-category="web">
+            <a href="https://aaronathin.github.io/cprg-218-lab-5/">
+                <img src="assets/API.png" alt="Web Project">
+                <h3>Nasa Astronomy Picture of the Day</h3>
+            </a>
+                <p>A project using the Nasa APOD API allowing you to find random images or specific images by searching by date.</p>
+        </div>
+
+        <div class="card" data-category="web">
+                <a href="https://aaronathin.github.io/cprg-218-assignment-1-main/">
+                <img src="assets/Assignment1.png" alt="Web Project">
+                <h3>Responsive Layout Site</h3>
+            </a>
+                <p>A site showcasing a responsive layout that adapts to the screen's size.</p>           
+        </div>
+
+        <div class="card" data-category="web">
+            <a href="https://aaronathin.github.io/cprg-218-lab-4-000929684/">   
+                <img src="assets/Stellar.png" alt="Web Project">
+                <h3>Stellar Transit Services</h3>
+            </a> 
+                <p>A site based on a fictional space travel service.</p>           
+        </div>
+
+        <div class="card" data-category="ux">
+            <a href="improving_ux_interactions.html">
+                <img src="assets/improving_ux_interactions.png" alt="Ux inteaction improvemnt presentation preview">
+                <h3>Improving Ux Interactions Presentation</h3>
+            </a>
+                <p>A presentation that identifies issues with the youtube live service and possible solutions.</p>
+        </div>
+
+        <div class="card" data-category="ux">
+            <a href="agile_framework_redesign.html">
+                <img src="assets/Agile_restructure.png" alt="Ux inteaction improvemnt presentation preview">
+                <h3>Agile Framework Redesign</h3>
+            </a>
+                <p>A report outlining a redesign of Monday.com with an agile framework.</p>
+        </div>
+
+        <div class="card" data-category="graphic">
+            <a href="reflectx_brand_guideline.html">
+                <img src="assets/ReflectX_BrandGuidline.png" alt="Ux inteaction improvemnt presentation preview">
+                <h3>ReflectX Brand Guideline</h3>
+            </a>
+                <p>The Brand guidelines for a fictional company.</p>
+        </div>
+
+        <div class="card" data-category="graphic">
+            <a href="photo_manipulation.html">
+                <img src="assets/Space_postcard_copy.jpg" alt="Ux inteaction improvemnt presentation preview">
+                <h3>Photo Manipulation</h3>
+            </a>
+                <p>Assignment where I took different assets and combined them into cohesive a cohesive image.</p>
+        </div>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
